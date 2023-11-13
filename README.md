@@ -43,6 +43,8 @@ Run the script and I have the final result
 
 ![image](https://github.com/larrysexample/bot/assets/150640746/726db002-c959-47b0-ab27-c71a7de27f5f)
 
+Now that the files are ready, on to the next steps!
+
 # Create Gmail account
 [Gmail](https://gmail.com)
 
