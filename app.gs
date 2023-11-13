@@ -361,15 +361,12 @@ function tweetFile() {
         var total_files = PropertiesService.getScriptProperties().getProperty('TOTAL_FILES');
         var number;
 
-        if (reset == parseInt(PropertiesService.getScriptProperties().getProperty('TOTAL_FILES'))){
-          file.setContent("")
-          PropertiesService.getScriptProperties().setProperty('RESET', '0');
-        }
-
         // find a file that has not been tweeted out yet
         do {
 
           number = Math.floor(Math.random() * total_files);
+          console.log(number)
+        
           if(number < 1){
             status = "Hibike! Euphonium"
             basename = number + "hibike" + number;
@@ -386,9 +383,6 @@ function tweetFile() {
             dif = 2;
           }
 
-
-
-
         } while (file.getBlob().getDataAsString().includes(content));
       }
     }
@@ -399,6 +393,11 @@ function tweetFile() {
   var format = final_file.substring(final_file.length - 3, final_file.length);
 
   var final = basename + "." + format;
+
+  if (reset == parseInt(PropertiesService.getScriptProperties().getProperty('TOTAL_FILES'))){
+          file.setContent("")
+          PropertiesService.getScriptProperties().setProperty('RESET', '0');
+  }
 
   return final;
 
@@ -415,6 +414,5 @@ function tweetSpecificFile() {
   Logger.log(format)
 
   uploadTwitterMedia(filename, format);
-
   
 }
