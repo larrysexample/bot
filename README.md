@@ -3,7 +3,7 @@ This bot uses Google Drive and Gapps Scripts to tweet images periodically, witho
 
 WARNING - THE CODE IS CONVOLUTED; IT HAS NOT BEEN MAINTAINED PROPERLY AND IT IS NOT EFFICIENT; BUT FORTUNATELY YOU ONLY HAVE TO CHANGE A SMALL PORTION
 
-Before all the steps, you need to have your pics ready and rename them in a certain fashion. This will be relevant [later](###change-your-desired-status)
+Before all the steps, you need to have your pics ready and rename them in a certain fashion. This will be relevant [later](#change-your-desired-status)
 
 My suggestion is to use the [Python script](rename.py) from the repository; so you need to install Python on your PC. If you know how to code, you can do this however you want obviously!!
 
@@ -155,7 +155,7 @@ Remember how we renamed the files at the beggining [here](#twitter-bot)? Those n
 
 So for files with number smaller than 1 and keyword hibike, I have status Hibike! Euphonium. For files with number smaller than 2 and bigger than 1, and keyword liz, I have status Liz and the Blue Bird. You can adapt this however you want
 
-Run sendTweet
+When you are ready to test, you can run sendTweet
 
 ![image](https://github.com/larrysexample/bot/assets/150640746/d55128ae-3cc4-4a3f-827f-8acefd500ea5)
 
