@@ -3,7 +3,7 @@ This bot uses Google Drive and Gapps Scripts to tweet images periodically, witho
 
 WARNING - THE CODE IS CONVOLUTED; IT HAS NOT BEEN MAINTAINED PROPERLY AND IT IS NOT EFFICIENT; BUT FORTUNATELY YOU ONLY HAVE TO CHANGE A SMALL PORTION
 
-Before all the steps, you need to have your pics ready and rename them in a certain fashion. My suggestion is to use the Python script from the repository: ; so you need to install Python on your PC. If you know how to code, you can do this however you want obviously!!
+Before all the steps, you need to have your pics ready and rename them in a certain fashion. My suggestion is to use the Python script from the repository; so you need to install Python on your PC. If you know how to code, you can do this however you want obviously!!
 
 I placed everything on my Desktop: a folder called Hibike with a pic from Hibike, a folder called Liz with a pic from Liz and the python script
 
