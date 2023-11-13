@@ -101,7 +101,9 @@ Go to settings the keys you saved from [this step](#create-keys-and-tokens) and 
 
 RESET is used for the program to loop after tweeting every picture. TOTAL_FILES should be the total number of pictures you have
 
-### Paste the code from app.gs on your script
+### Paste the code from app.gs - from this repository - on your script
+
+![image](https://github.com/larrysexample/bot/assets/150640746/2f932e9f-84fc-45de-91ee-bdd26e474ec5)
 
 Run sendTweet
 
