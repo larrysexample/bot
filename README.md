@@ -4,9 +4,13 @@ This bot uses Google Drive and Gapps Scripts to tweet images periodically, witho
 # Create Gmail account
 [Gmail](https://gmail.com)
 
+![image](https://github.com/larrysexample/bot/assets/150640746/add97cac-bc4e-499d-8507-4b9f9f98ea64)
+
 # Create Twitter account
 [Twitter](https://twitter.com) - 
 good luck, the captchas are unreasonable
+
+![image](https://github.com/larrysexample/bot/assets/150640746/5d22c2fe-b591-4f75-a2a1-778b8b016e11)
 
 # Prepare your Google Drive folder
 Create a folder - in this case I created the folder Hibike
@@ -19,7 +23,12 @@ Go [here](https://developer.twitter.com/en/portal/dashboard) and follow the next
 
 ### Use the Basic tier
 
+![image](https://github.com/larrysexample/bot/assets/150640746/36d4f283-c176-4f48-b91d-8f8676c93259)
+
 ### Describe the use cases
+
+![image](https://github.com/larrysexample/bot/assets/150640746/4071ee8b-e8b9-4a62-b1fc-fc39b92f1209)
+
 This is the text I have used:
 
 "Using twitter API to create a bot that periodically tweets images extracted from shows/anime/manga\
@@ -28,25 +37,53 @@ Project is non profit and for entertainment purposes\
 No users will be spammed or DMed by this account"
 
 ### Create keys and tokens
+
+![image](https://github.com/larrysexample/bot/assets/150640746/02f24d41-985a-406c-ac78-8f778f811566)
+
 Generate these keys (save them but do not worry you can regenerate them again if needed)
+
+![image](https://github.com/larrysexample/bot/assets/150640746/0211861b-2dbc-4998-930a-ce161195798c)
 
 # Google App Script Part 1
 Go to your Google Drive folder and create your script
 
-### Add Auth Libraries
-Paste this ID for Oauth1
+![image](https://github.com/larrysexample/bot/assets/150640746/cb55f745-3df9-4ed2-8afa-ee26b72d794a)
 
-Do the same process for Oauth2 with this ID
+### Add Auth Libraries
+
+On the left side click on the plus next to libraries
+
+Paste this ID for Oauth1: 1CXDCY5sqT9ph64fFwSzVtXnbjpSfWdRymafDrtIZ7Z_hwysTY7IIhi7s  and then look up and add
+
+![image](https://github.com/larrysexample/bot/assets/150640746/d42c57af-6c5c-463b-91ae-ee558294fe73)
+
+Do the same process for Oauth2 with this ID 1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF 
+
+https://github.com/googleworkspace/apps-script-oauth1
+https://github.com/googleworkspace/apps-script-oauth2
 
 ### Get your script link
-Grab your script ID, and replace it on this link:
+Go to settings, grab your script ID, and replace it on this link:
 https://script.google.com/macros/d/YOUR_SCRIPT_ID_GOES_HERE/usercallback
+
+![image](https://github.com/larrysexample/bot/assets/150640746/8af67d7a-412d-459e-9e7e-a851e14a7226)
 
 Save this link
 
 # Twitter Developer Part 2
 
+Set up user auth
+
+![image](https://github.com/larrysexample/bot/assets/150640746/716811ef-2ff8-4300-adf7-db432415221c)
+
+![image](https://github.com/larrysexample/bot/assets/150640746/10960dd2-c8e3-4845-a81c-3f39a4ea3d67)
+
+
 Do the same settings as following pictures:
+
+![image](https://github.com/larrysexample/bot/assets/150640746/71c4a430-1ae4-40ec-8051-e29a6609fe39)
+
+![image](https://github.com/larrysexample/bot/assets/150640746/5cd66f37-7eb2-4dda-94c2-fd17016bae51)
 
 Your callback URI is the link from [this step](###Get-your-script-link)
 
@@ -55,7 +92,9 @@ Save and save your client tokens too
 # Google App Script Part 2
 
 ### Add keys/other variables
-Add the keys you saved from [this step](###Create-keys-and-tokens) and [this one](###Twitter-Developer-Part-2)
+Go to settings the keys you saved from [this step](###Create-keys-and-tokens) and [this one](###Twitter-Developer-Part-2)
+
+![image](https://github.com/larrysexample/bot/assets/150640746/dd9cef34-16fd-4ad2-b9dd-b1aa62f03931)
 
 RESET is used for the program to loop after tweeting every picture. TOTAL_FILES should be the total number of pictures you have
 
