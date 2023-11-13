@@ -1,6 +1,8 @@
 # Twitter bot
 This bot uses Google Drive and Gapps Scripts to tweet images periodically, without repetition.
 
+WARNING - THE CODE IS CONVOLUTED; IT HAS NOT BEEN MAINTAINED PROPERLY AND IT IS NOT EFFICIENT; BUT FORTUNATELY YOU ONLY HAVE TO CHANGE A SMALL PORTION
+
 # Create Gmail account
 [Gmail](https://gmail.com)
 
