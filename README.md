@@ -129,6 +129,8 @@ Do the same settings as following pictures:
 
 ![image](https://github.com/larrysexample/bot/assets/150640746/71c4a430-1ae4-40ec-8051-e29a6609fe39)
 
+For website URL just use your twitter one
+
 ![image](https://github.com/larrysexample/bot/assets/150640746/5cd66f37-7eb2-4dda-94c2-fd17016bae51)
 
 Your callback URI is the link from [this step](#get-your-script-link)
