@@ -86,14 +86,14 @@ Do the same settings as following pictures:
 
 ![image](https://github.com/larrysexample/bot/assets/150640746/5cd66f37-7eb2-4dda-94c2-fd17016bae51)
 
-Your callback URI is the link from [this step](###Get-your-script-link)
+Your callback URI is the link from [this step](###get-your-script-link)
 
 Save and save your client tokens too
 
 # Google App Script Part 2
 
 ### Add keys/other variables
-Go to settings the keys you saved from [this step](###Create-keys-and-tokens) and [this one](###Twitter-Developer-Part-2)
+Go to settings the keys you saved from [this step](###create-keys-and-tokens) and [this one](###twitter-developer-part-2)
 
 ![image](https://github.com/larrysexample/bot/assets/150640746/dd9cef34-16fd-4ad2-b9dd-b1aa62f03931)
 
