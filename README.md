@@ -58,6 +58,7 @@ good luck, the captchas are unreasonable
 
 # Prepare your Google Drive folder
 Create a folder - in this case I created the folder Hibike
+
 Paste the pics inside this folder
 
 Then, create a new folder inside this one called myfolder. Inside myfolder, create an empty txt file called counter.txt (warning: this has to be a txt file; do not create a google doc. You can create it on Windows and then upload it). Folders should look like this:
