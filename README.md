@@ -142,7 +142,7 @@ Save and save your client tokens too
 ### Add keys/other variables
 Go to settings and add the keys you saved from [this step](#create-keys-and-tokens) and [this one](#twitter-developer-part-2)
 
-![image](https://github.com/larrysexample/bot/assets/150640746/dd9cef34-16fd-4ad2-b9dd-b1aa62f03931)
+![image](https://github.com/larrysexample/bot/assets/150640746/84c0444c-db2d-4ae6-bdd4-c35cbb2277cf)
 
 RESET is used for the program to loop after tweeting every picture. TOTAL_FILES should be the total number of pictures you have
 
