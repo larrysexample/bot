@@ -18,8 +18,11 @@ Paste the pics inside this folder
 
 Then, create a new folder inside this one called myfolder. Inside myfolder, create an empty txt file called counter.txt (warning: this has to be a txt file; do not create a google doc. You can create it on Windows and then upload it). Folders should look like this:
 
+![image](https://github.com/larrysexample/bot/assets/150640746/95d8c5fd-46b4-4ccf-8911-6b11094e8ed7)
+![image](https://github.com/larrysexample/bot/assets/150640746/76cba686-5fff-4b69-b94c-c5dfbed5512d)
+
 # Twitter Developer Part 1
-Go [here](https://developer.twitter.com/en/portal/dashboard) and follow the next steps
+Go [here](https://developer.twitter.com/en/portal/dashboard) and follow the next steps - login if you haven't
 
 ### Use the Basic tier
 
@@ -74,10 +77,8 @@ Save this link
 
 Set up user auth
 
-![image](https://github.com/larrysexample/bot/assets/150640746/716811ef-2ff8-4300-adf7-db432415221c)
-
 ![image](https://github.com/larrysexample/bot/assets/150640746/10960dd2-c8e3-4845-a81c-3f39a4ea3d67)
-
+![image](https://github.com/larrysexample/bot/assets/150640746/716811ef-2ff8-4300-adf7-db432415221c)
 
 Do the same settings as following pictures:
 
