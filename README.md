@@ -90,6 +90,8 @@ Your callback URI is the link from [this step](#get-your-script-link)
 
 Save and save your client tokens too
 
+![image](https://github.com/larrysexample/bot/assets/150640746/3113ded5-dff6-497b-bfec-b81aed7ec776)
+
 # Google App Script Part 2
 
 ### Add keys/other variables
@@ -100,3 +102,19 @@ Go to settings the keys you saved from [this step](#create-keys-and-tokens) and 
 RESET is used for the program to loop after tweeting every picture. TOTAL_FILES should be the total number of pictures you have
 
 ### Paste the code from app.gs on your script
+
+Run sendTweet
+
+![image](https://github.com/larrysexample/bot/assets/150640746/d55128ae-3cc4-4a3f-827f-8acefd500ea5)
+
+
+You might have to do these:
+
+![image](https://github.com/larrysexample/bot/assets/150640746/f41cdbf2-ecdf-439a-9852-64b44d84c3ce)
+
+Just click Advanced -> Go to project
+
+![image](https://github.com/larrysexample/bot/assets/150640746/f2d97f72-fd35-4a51-b3ca-30b12a33cfec)
+
+Open link and confirm
+
