@@ -118,3 +118,14 @@ Just click Advanced -> Go to project
 
 Open link and confirm
 
+And voilà
+
+![image](https://github.com/larrysexample/bot/assets/150640746/82ff862d-6905-4c04-9485-7e8bc11eb6eb)
+
+After that you can setup triggers
+
+![image](https://github.com/larrysexample/bot/assets/150640746/ec97ce67-1499-45b0-953a-f7fcc594290e)
+![image](https://github.com/larrysexample/bot/assets/150640746/84913f01-f809-45f9-901a-41819c10c06e)
+
+
+
