@@ -3,6 +3,44 @@ This bot uses Google Drive and Gapps Scripts to tweet images periodically, witho
 
 WARNING - THE CODE IS CONVOLUTED; IT HAS NOT BEEN MAINTAINED PROPERLY AND IT IS NOT EFFICIENT; BUT FORTUNATELY YOU ONLY HAVE TO CHANGE A SMALL PORTION
 
+Before all the steps, you need to have your pics ready and rename them in a certain fashion. My suggestion is to use the Python script from the repository: ; so you need to install Python on your PC. If you know how to code, you can do this however you want obviously!!
+
+I placed everything on my Desktop: a folder called Hibike with a pic from Hibike, a folder called Liz with a pic from Liz and the python script
+
+![image](https://github.com/larrysexample/bot/assets/150640746/e82a9cb9-05c1-4e4f-adcf-e611b0f6676b)
+
+I also opened cmd to run the script when ready
+
+![image](https://github.com/larrysexample/bot/assets/150640746/46327612-ff21-4953-8db5-1b67107b5bf3)
+
+Now, in my case since I have two different shows/movies, I put them in different folders. This will help with the renaming so that later I can setup different status for the tweet depending on the show selected.
+
+So on the script I put the start_index as 0
+
+![image](https://github.com/larrysexample/bot/assets/150640746/a1f5cf73-886d-4119-944a-b13976d24b41)
+
+And then use the keyword hibike to rename
+
+![image](https://github.com/larrysexample/bot/assets/150640746/de13c1ae-6043-41e1-9d39-5ca2e71bceda)
+
+Then, I set the correct path - notice the double bars on the path used in the script, necessary for Windows paths in Python
+
+![image](https://github.com/larrysexample/bot/assets/150640746/cb8cf0dd-25e1-47bc-aeec-48925e805cb2)
+
+Then I change directory in cmd to Desktop, and run the script
+
+![image](https://github.com/larrysexample/bot/assets/150640746/4a801f47-240c-4452-9f9f-cc09345f6094)
+
+Notice how the name is now 0hibike0.png - this is our naming convention. NumberNameNumber.filetype
+
+Since the number ended at 0, for the other folder I use index 1; and set the correct path and keyword again
+
+![image](https://github.com/larrysexample/bot/assets/150640746/803fada3-3e55-45d3-b200-74c5592a269d)
+
+Run the script and I have the final result
+
+![image](https://github.com/larrysexample/bot/assets/150640746/726db002-c959-47b0-ab27-c71a7de27f5f)
+
 # Create Gmail account
 [Gmail](https://gmail.com)
 
