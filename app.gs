@@ -291,14 +291,17 @@ function getFileBlob(basename) {
   var png = basename + ".png";
   var gif = basename + ".gif";
   var mp4 = basename + ".mp4";
+  var webp = basename + ".webp";
   var jpg_format = jpg.substring(0, 50);
   var png_format = png.substring(0, 50);
   var gif_format = gif.substring(0, 50);
-  var mp4_format = mp4.substring(0, 50)
+  var mp4_format = mp4.substring(0, 50);
+  var webp_format = webp.substring(0, 50)
   var jpg_file = DriveApp.getFilesByName(jpg_format);
   var png_file = DriveApp.getFilesByName(png_format);
   var gif_file = DriveApp.getFilesByName(gif_format);
   var mp4_file = DriveApp.getFilesByName(mp4_format);
+  var webp_file = DriveApp.getFilesByName(webp_format);
   var target_file;
 
   while (jpg_file.hasNext()) {
@@ -318,6 +321,11 @@ function getFileBlob(basename) {
 
   while (mp4_file.hasNext()) {
     target_file = mp4_file.next().getBlob();
+    Logger.log(target_file.getName());
+  }
+
+  while (webp_file.hasNext()) {
+    target_file = webp_file.next().getBlob();
     Logger.log(target_file.getName());
   }
 
